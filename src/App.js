@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './componentes/Navbar/Navbar';
+import Title from './componentes/Title/Title';
 
 function App() {
   return (
@@ -9,6 +9,10 @@ function App() {
         <Navbar />
        
       </header>
+
+      <div className='texto'>
+        <Title />
+      </div>
     </div>
   );
 }

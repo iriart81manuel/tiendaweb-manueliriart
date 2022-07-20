@@ -7,7 +7,6 @@
   font-size: 16px;
   color: rgb(0, 0, 0);
   display: flex;
-  justify-content: space-between;
 }
 
 button {
@@ -52,3 +51,15 @@ button:active {
   box-shadow: none;
   transform: translateY(0);
 }
+
+.options{
+  display: flex;
+  margin-left: 30%;
+}
+
+.cartlogin{
+ display: flex;
+ margin-left: 400px;
+}
+
+
