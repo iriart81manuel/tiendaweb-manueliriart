@@ -1,6 +1,8 @@
 import './App.css';
+import Counter from './componentes/ItemCount/ItemCount';
 import Navbar from './componentes/Navbar/Navbar';
 import Title from './componentes/Title/Title';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
 
       <div className='texto'>
         <Title />
+        <Counter />
       </div>
     </div>
   );
