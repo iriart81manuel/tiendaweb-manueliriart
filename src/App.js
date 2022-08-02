@@ -1,22 +1,22 @@
 import './App.css';
-import Counter from './componentes/ItemCount/ItemCount';
 import Navbar from './componentes/Navbar/Navbar';
-import Title from './componentes/Title/Title';
-
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <BrowserRouter>
         <Navbar />
-       
-      </header>
-
-      <div className='texto'>
-        <Title />
-        <Counter />
-      </div>
+        <Routes>
+          <Route path='/' element={<ItemListContainer greeting="Todos nuestros productos" />}/>
+          <Route path='/category/:categoryId' element={<ItemListContainer greeting="Estamos filtrando" />} />
+          <Route path='/detail/:productId' element={<ItemDetailContainer />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
+
 export default App;
