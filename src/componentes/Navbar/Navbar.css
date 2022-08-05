@@ -1,13 +1,18 @@
 * {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #464646;
-  
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 
-.Navbar {
+.Categories{
   font-size: 16px;
-  color: rgb(0, 0, 0);
   display: flex;
+  justify-content: center;
+}
+
+.cart{
+  display: flex;
+  justify-items: end;
 }
 
 button {
@@ -20,7 +25,7 @@ button {
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: normal;
   margin: 0;
   min-height: 60px;
@@ -42,7 +47,7 @@ button:disabled {
 }
 
 button:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
 }
 
 button:active {
@@ -50,8 +55,5 @@ button:active {
   transform: translateY(0);
 }
 
-.options{
-  display: flex;
-  margin-left: 30%;
-}
+
 

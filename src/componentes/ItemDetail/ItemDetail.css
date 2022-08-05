@@ -1,55 +1,33 @@
-.CardItem {
-    width: 500px;
-    padding: 30px;
-    margin: 30px;
-    font-size: 10px;
-    background-color: papayawhip;
-    border: 1px solid #e1e1e1;
-    border-radius: 10px;
+.container_item{
+    margin-left: 15%;
+    width: 70%;
 }
 
-.ContainerItem {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    border-radius: 25px;
+.card_container_item, article{
+    background-color: rgba(238, 241, 86, 0.701);
+    width: 100%;
+    border: 5px solid #eeff00;
+    border-radius: 5%;
 }
 
-.ItemHeader {
-    display: flex;
-    justify-content: center;
+.card_img_item{
+    width: 40%;
+    margin: 5px;
 }
 
-.Info {
-    font-size: 12px;
-    display: flex;
-    justify-content: space-around;
+.letras_item{
+    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
 }
 
-.Button {
-    width: auto;
-    padding: 12px;
-    font-size: 8px;
-    background: #8C30F5;
-    border-radius: 8px;
-    flex: none;
-    display: flex;
-    order: 1;
-    align-self: center;
-    flex-grow: 0;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #FFFFFF;
-    border: none;
-    border-style: none;
-    cursor: pointer;
-    outline: inherit;
+.letras_itemP{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.letras_itemS{
+    color: rgb(18, 169, 5);
+    font-weight: bold;
 }
 
-.ItemImg {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    object-position: center;
-}

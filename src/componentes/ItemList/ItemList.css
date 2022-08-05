@@ -1,3 +1,4 @@
-.ListGroup {
-    display: flex;
+.ItemList{
+    display: inline-block;
+    position: relative;
 }
