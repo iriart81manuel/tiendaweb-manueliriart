@@ -12,7 +12,6 @@
 
 .cart{
   display: flex;
-  justify-items: end;
 }
 
 button {
