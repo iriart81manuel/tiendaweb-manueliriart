@@ -1,5 +1,14 @@
-.ItemList{
-    display: inline-block;
-    position: relative;
+article{
+    display: block;
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(68, 245, 245);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+img{
+    max-width: 25%;
+    
+}

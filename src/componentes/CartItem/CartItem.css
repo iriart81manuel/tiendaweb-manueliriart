@@ -1,0 +1,13 @@
+.carditem {
+  justify-content: center;
+  width: 30%;
+}
+
+.cditem {
+  display: block;
+  border-radius: 2px;
+}
+
+button {
+  margin-bottom: 5px;
+}

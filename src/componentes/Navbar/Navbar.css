@@ -1,7 +1,8 @@
 * {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:  sans-serif;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: #353535;
 }
 
 .Categories{
@@ -10,14 +11,10 @@
   justify-content: center;
 }
 
-.cart{
-  display: flex;
-}
-
 button {
   appearance: none;
   background-color: transparent;
-  border: 2px solid #1a1a1a;
+  border: 2px solid  rgb(68, 245, 245);;
   border-radius: 15px;
   box-sizing: border-box;
   color: #000000;
@@ -33,7 +30,6 @@ button {
   padding: 1px 25px;
   text-align: center;
   text-decoration: none;
-  transition: all 300ms cubic-bezier(23, 1, 032, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;

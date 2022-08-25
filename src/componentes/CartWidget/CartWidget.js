@@ -1,10 +1,19 @@
-import React from "react";
+import { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { CartContext } from '../../context/CartContext'
 
-export const CartWidget = () => {
+const CartWidget = () => {
+    const { totalQuantity } = useContext(CartContext)
+
+    // const quantity = getQuantity()
+  
+
     return(
-        <i className="bi bi-cart3"></i>
+        <Link to='/cart' className="CartWidget">
+          <i className="bi bi-cart3"></i>
+          {totalQuantity} 
+        </Link>
     );
 }
-
 
 export default CartWidget;
