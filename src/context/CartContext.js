@@ -43,7 +43,7 @@ export const CartContextProvider = ({ children }) => {
     setCart(cartWithoutItem);
   };
 
-  const clearCart = () => {
+  const resetCart = () => {
     setCart([]);
   };
 
@@ -66,7 +66,7 @@ export const CartContextProvider = ({ children }) => {
         addItem,
         isInCart,
         removeItem,
-        clearCart,
+        resetCart,
         getQuantity,
         getProductQuantity,
         getFinalPrice,

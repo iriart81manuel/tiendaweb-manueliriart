@@ -12,7 +12,7 @@ const CartContainer = () => {
     return (
       <div className='cartContainerGeneral'>
         <h1 className='titleNoProd'>Tu carrito se encuentra vacio...</h1>
-        <Link className='/cart' to='/'>Ver Productos</Link>
+        <Link className='/cart' to='/'><button>Ver Productos</button></Link>
       </div>
     )
   }
