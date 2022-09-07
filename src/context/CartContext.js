@@ -24,7 +24,7 @@ export const CartContextProvider = ({ children }) => {
       setCart(cartUpdated);
     }
   };
-  
+
   const getQuantity = () => {
     let accu = 0;
     cart.forEach((prod) => {
