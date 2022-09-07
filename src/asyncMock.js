@@ -9,26 +9,6 @@ const products = [
     description: "Sensor Pixart 3389 - Seis botones - Cómodo diseño ergonómico",
   },
   {
-    id: "2",
-    name: "Pulsefire Core",
-    price: 2199,
-    category: "mouses",
-    img: "/images/mouses/mouse2.png",
-    stock: 8,
-    description:
-      "Sensor óptico Pixart 3327 - Siete botones programables - Cómodo diseño simétrico°",
-  },
-  {
-    id: "3",
-    name: "Pulsefire Surge",
-    price: 2299,
-    category: "mouses",
-    img: "/images/mouses/mouse3.png",
-    stock: 10,
-    description:
-      "Sensor Pixart 3389 - Hasta 50 millones de clics fiables - Efectos RGB dinámicos de 360°",
-  },
-  {
     id: "4",
     name: "HyperX Cloud Stinger",
     price: 1900,
@@ -39,26 +19,6 @@ const products = [
       "Audio inmersivo - Control de audio",
   },
   {
-    id: "5",
-    name: "HyperX Cloud Core",
-    price: 2099,
-    category: "auriculares",
-    img: "/images/auriculares/auri2.png",
-    stock: 5,
-    description:
-      "Confort - Cancelación de ruido",
-  },
-  {
-    id: "6",
-    name: "Hyperx Inalámbricos Cloud II Wireless",
-    price: 2900,
-    category: "auriculares",
-    img: "/images/auriculares/auri3.png",
-    stock: 6,
-    description:
-      "Inalambrico - Duracion de bateria 30h",
-  },
-  {
     id: "7",
     name: "HyperX Alloy Origins",
     price: 2700,
@@ -67,26 +27,6 @@ const products = [
     stock: 11,
     description:
       "Antighosting - Cable removible",
-  },
-  {
-    id: "8",
-    name: "Hyperx Alloy Core",
-    price: 3099,
-    category: "teclados",
-    img: "/images/teclados/tecl2.png",
-    stock: 4,
-    description:
-      "Antighosting - Resiste salpicaduras",
-  },
-  {
-    id: "9",
-    name: "Hyperx Alloy Origins 65 Compacto",
-    price: 3199,
-    category: "teclados",
-    img: "/images/teclados/tecl2.png",
-    stock: 4,
-    description:
-      "65% (pequeño) - Switch Linear Red",
   },
 ];
 

@@ -5,8 +5,9 @@ import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailCon
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartContextProvider } from "./context/CartContext";
 import CartContainer from "./componentes/CartContainer/CartContainer";
-import React, { useState, useEffect, } from "react";
+import React, { useState, useEffect } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
+import Form from "./componentes/Form/Form";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,27 +22,22 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <ClipLoader className="load" color="#44f5f5" loading={loading} size={120} />
+        <ClipLoader
+          className="load"
+          color="#44f5f5"
+          loading={loading}
+          size={120}
+        />
       ) : (
         <CartContextProvider>
           <BrowserRouter>
             <Navbar />
             <Routes>
-              <Route
-                path="/"
-                element={
-                  <ItemListContainer greeting="Todos nuestros productos" />
-                }
-              />
-              <Route
-                path="/category/:categoryId"
-                element={<ItemListContainer />}
-              />
-              <Route
-                path="/detail/:productId"
-                element={<ItemDetailContainer />}
-              />
+              <Route path="/" element={<ItemListContainer greeting="Todos nuestros productos" />}/>
+              <Route path="/category/:categoryId" element={<ItemListContainer />}/>
+              <Route path="/detail/:productId" element={<ItemDetailContainer />}/>
               <Route path="/cart" element={<CartContainer />} />
+              <Route path="/order" element={<Form />} />
             </Routes>
           </BrowserRouter>
         </CartContextProvider>

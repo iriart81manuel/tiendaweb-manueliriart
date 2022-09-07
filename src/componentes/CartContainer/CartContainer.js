@@ -33,7 +33,7 @@ const CartContainer = () => {
         </button>
         <button>
           <Link to="/order" className="btnCart">
-            Comprar
+            Continuar con el pedido 👉
           </Link>
         </button>
       </div>

@@ -1,0 +1,30 @@
+.formTitle {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formQ {
+  color: #fff;
+  margin-top: 2px;
+  font-weight: 600;
+}
+
+.formInput {
+  align-self: center;
+  width: 400px;
+  height: 30px;
+  margin: 7px 0;
+  padding: 1px 5px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 1px 1px 2px rgb(68, 245, 245);
+}
+
+.formInput:focus {
+  box-shadow: 0px 4px 3px rgb(68, 245, 245);
+}
